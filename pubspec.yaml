@@ -1,0 +1,17 @@
+name: pocker
+description: A Dart client for podman/docker API via local unix socket.
+version: 1.0.0
+repository: https://github.com/appootb/pocker
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  json_annotation: ^4.9.0
+  http: ^1.2.2
+
+dev_dependencies:
+  build_runner: ^2.4.12
+  json_serializable: ^6.8.0
+  lints: ^4.0.0
+  test: ^1.24.0
