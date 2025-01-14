@@ -1,16 +1,16 @@
 import 'package:pocker/src/client/http_client.dart';
-import 'package:pocker/src/image/image.dart';
-import 'package:pocker/src/image/model/container_config.dart';
-import 'package:pocker/src/image/model/image_build_pruned.dart';
-import 'package:pocker/src/image/model/image_history.dart';
-import 'package:pocker/src/image/model/image_id.dart';
-import 'package:pocker/src/image/model/image_inspect.dart';
-import 'package:pocker/src/image/model/image_pruned.dart';
-import 'package:pocker/src/image/model/image_removed.dart';
-import 'package:pocker/src/image/model/image_search_result.dart';
-import 'package:pocker/src/image/model/image_summary.dart';
-import 'package:pocker/src/model/filters.dart';
-import 'package:pocker/src/model/label.dart';
+import 'package:pocker/image/image.dart';
+import 'package:pocker/image/model/container_config.dart';
+import 'package:pocker/image/model/image_build_pruned.dart';
+import 'package:pocker/image/model/image_history.dart';
+import 'package:pocker/image/model/image_id.dart';
+import 'package:pocker/image/model/image_inspect.dart';
+import 'package:pocker/image/model/image_pruned.dart';
+import 'package:pocker/image/model/image_removed.dart';
+import 'package:pocker/image/model/image_search_result.dart';
+import 'package:pocker/image/model/image_summary.dart';
+import 'package:pocker/model/filters.dart';
+import 'package:pocker/model/label.dart';
 
 class PockerImage implements ImageApi {
   PockerImage({required this.client});

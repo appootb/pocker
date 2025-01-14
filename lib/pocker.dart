@@ -1,5 +1,4 @@
-import 'package:pocker/src/image/image.dart';
-
+import 'image/image.dart';
 import 'src/client/http_client.dart';
 import 'src/engine/pocker_image.dart';
 

@@ -1,9 +1,7 @@
-import 'package:http/http.dart';
-import 'package:pocker/pocker.dart';
+import 'package:pocker/model/label.dart';
 import 'package:pocker/src/client/api_exception.dart';
 import 'package:pocker/src/client/http_client.dart';
 import 'package:pocker/src/engine/pocker_image.dart';
-import 'package:pocker/src/model/label.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,5 +1,5 @@
+import 'package:pocker/image/model/image_summary.dart';
 import 'package:pocker/src/client/http_client.dart';
-import 'package:pocker/src/image/model/image_summary.dart';
 import 'package:test/test.dart';
 
 void main() {

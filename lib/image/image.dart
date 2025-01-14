@@ -1,4 +1,4 @@
-import 'package:pocker/src/model/label.dart';
+import 'package:pocker/model/label.dart';
 
 import 'model/container_config.dart';
 import 'model/image_build_pruned.dart';
